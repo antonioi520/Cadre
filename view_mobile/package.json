@@ -1,0 +1,27 @@
+{
+	"name": "view_mobile",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"build-android": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && react-native run-android",
+		"build-ios": "react-native bundle --platform ios --dev false --entry-file index.js --bundle-output ios/view_mobile/main.jsbundle --assets-dest ios/ && react-native run-ios",
+		"test": "jest"
+	},
+	"dependencies": {
+		"axios": "^0.17.1",
+		"native-base": "^2.3.3",
+		"react": "16.0.0",
+		"react-native": "0.50.4",
+		"react-router-native": "^4.2.0"
+	},
+	"devDependencies": {
+		"babel-jest": "21.2.0",
+		"babel-preset-react-native": "4.0.0",
+		"jest": "21.2.1",
+		"react-test-renderer": "16.0.0"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
