@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/mike91doby/SeniorProject_Winter2018#readme",
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.21.1",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
